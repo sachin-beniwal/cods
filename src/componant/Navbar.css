@@ -1,0 +1,35 @@
+body{
+    background-color: yellow;
+}
+.nav{
+    height: 60px;
+    width: 95%;
+    background-color: white;
+    border: 2px solid black;
+    outline: 2px solid #3A4664;
+    outline-offset: 2px;
+    margin:  auto;
+    margin-top: 10px;
+    border-radius: 0px 25px 0px 25px;
+    
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.nav ul li i{
+    color: pink;
+    margin-right: 10px;
+}
+.nav ul li a:hover{
+    font-size: 20px;
+    color: pink;
+}
